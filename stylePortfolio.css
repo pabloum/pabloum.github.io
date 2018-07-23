@@ -1,18 +1,27 @@
 body{
   background: #36a4e2;
   color: white;
+  padding: 30px;
 }
 
 h1{
-  color: yellow;
+  color: #ff5500;
   text-align: center;
+  text-shadow: 0.5px 0.5px #000000;
+  
 }
 
 h2{
-  color: red;
+  color: #e6b800;
   text-align: center;
+  text-shadow: 0.5px 0.5px #000000;
+  text-decoration: underline overline;
 }
 
 h3{
   color: black;
+}
+
+p{
+  text-shadow: 0.5px 0.5px #000000;
 }
