@@ -2,3 +2,17 @@ body{
   background: #36a4e2;
   color: white;
 }
+
+h1{
+  color: yellow;
+  text-align: center;
+}
+
+h2{
+  color: red;
+  text-align: center;
+}
+
+h3{
+  color: black;
+}
