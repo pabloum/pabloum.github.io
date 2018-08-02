@@ -57,8 +57,9 @@ ul{
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+  /* image-resolution: snap; */
   /* height: 70%; */
-  image-orientation: center;
+  /* image-orientation: center; */
 }
 
 .info{
