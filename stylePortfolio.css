@@ -7,7 +7,7 @@ body{
 }
 
 h1{
-  color: #ff5500;
+  color: yellow; /*#ff5500;*/
   text-align: center;
 
 }
@@ -19,7 +19,7 @@ h2{
 }
 
 h3{
-  color: black;
+  color: yellow;
   text-shadow: none;
 }
 
@@ -31,6 +31,34 @@ p{
 
 ul{
 
+}
+
+.caja-informacion{
+  background-color: rgb(0,0,0,0.8);
+  border-radius: 10px;
+  padding: 4%;
+  margin: 5%;
+}
+
+
+.pie-pag{
+  background-color: rgb(0,0,0,0.8);
+  border-radius: 10px;
+  padding: 1%;
+  text-align: center;
+  width: 400px;
+  text-align: left;
+  font-size: 11px;
+  position: absolute;
+}
+
+.foto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  /* height: 70%; */
+  image-orientation: center;
 }
 
 .info{
