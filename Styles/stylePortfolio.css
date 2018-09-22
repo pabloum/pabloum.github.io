@@ -55,12 +55,11 @@ ul{
 
 .foto{
   display: block;
+  margin-top: 3%;
+  margin-bottom: 3%;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  /* image-resolution: snap; */
-  /* height: 70%; */
-  /* image-orientation: center; */
 }
 
 .education-logos{
@@ -73,4 +72,59 @@ ul{
 
 .info{
   list-style-type: none;
+}
+
+#profile-picture{
+  border-radius: 50%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  text-align: center;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+  text-align: center;
+}
+
+.social{
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
 }
