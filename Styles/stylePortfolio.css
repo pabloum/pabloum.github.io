@@ -128,3 +128,9 @@ ul{
   margin-top: 20px;
   margin-right: 20px;
 }
+
+@media (max-width: 778px) {
+  p, li, tr, .navbar{
+    font-size: 22px;
+  }
+}
