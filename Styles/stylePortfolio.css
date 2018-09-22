@@ -130,8 +130,15 @@ ul{
   margin-right: 20px;
 }
 
-@media (max-width: 778px) {
-  p, li, tr, .navbar{
-    font-size: 22px;
+@media (max-width: 992px) {
+  p, li, tr, h3, .navbar{
+    font-size: 200%;
+  }
+  .navbar a{
+    font-size: 100%;
+  }
+  .caja-informacion{
+    margin-right: -10%;
+    margin-left: -10%;
   }
 }
