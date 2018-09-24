@@ -41,6 +41,16 @@ ul{
   margin: 1%;
 }
 
+#home{
+  color: yellow;
+  font-weight: bold;
+}
+
+
+/* CHECK WHY THIS DOES NOT WORK */
+.nav-item active{
+  color: red;
+}
 
 .pie-pag{
   background-color: rgb(0,0,0,0.8);
@@ -62,8 +72,25 @@ ul{
   width: 60%;
 }
 
+.foto-vertical{
+  /* display: block; */
+  /* position: absolute; */
+  margin: 3%;
+  float: right;
+  /* margin-top: 0%; */
+  /* margin-bottom: -100%; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* width: 50%; */
+  height: 400px;
+}
+
 .education-logos{
   width: 80%;
+}
+
+.education-places{
+  margin-bottom: 2%;
 }
 
 .img-carousel{
@@ -76,7 +103,8 @@ ul{
 
 #profile-picture{
   border-radius: 50%;
-  width: 80%;
+  width: 60%;
+  height: auto;
 }
 
 .fa {
@@ -135,7 +163,7 @@ ul{
     font-size: 200%;
   }
   .navbar a{
-    font-size: 100%;
+    font-size: 50%;
   }
   .caja-informacion{
     margin-right: -10%;

@@ -3,20 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title> Pablo Uribe Montoya - C++ Developer</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="Styles/stylePortfolio.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="Scripts/app.js"></script>
   </head>
   <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <a href="#">Pablo Uribe Montoya</a>
+      <a id="home" href="#about-me">Pablo Uribe Montoya</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse right" id="navbarText">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item active" id="li-about-me">
             <a class="nav-link" href="#about-me">About me</a>
           </li>
           <li class="nav-item">
@@ -29,13 +34,10 @@
             <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#soft-skills">Soft Skills</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#experience-box">Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -47,7 +49,7 @@
     <div class="container">
       <div class="row">
         <div class="col-10 offset-1">
-          <h1>Pablo Uribe Montoya. engineer <br> Full Stack Rails && C++ Developer</h1>
+          <h1>Pablo Uribe Montoya. <br> Full Stack Rails && C++ Developer</h1>
         </div>
       </div>
 
@@ -57,7 +59,7 @@
             <h3>About me</h3>
             <div class="description">
               <div class="row">
-                <div class="col">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
                   <table class="table">
                     <tr>
                       <th>Name</th>
@@ -69,7 +71,19 @@
                     </tr>
                     <tr>
                       <th>Profession</th>
-                      <td>Mechanical and Aeronautical Engineer</td>
+                      <td>Mechanical Engineer <br>Aeronautical Engineer</td>
+                    </tr>
+                    <tr>
+                      <th>Job</th>
+                      <td>Software developer</td>
+                    </tr>
+                    <tr>
+                      <th>Programming languages</th>
+                      <td>C/C++ <br>Ruby on Rails <br>Javascript <br>Matlab <br>Java </td>
+                    </tr>
+                    <tr>
+                      <th>Languages</th>
+                      <td>English (C1) <br>French (C1) <br>German (B1) <br>Spanish (nativ) </td>
                     </tr>
                     <tr>
                       <th>Phone</th>
@@ -82,7 +96,7 @@
                   </table>
 
                 </div>
-                <div class="col" style="text-align: center;">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-6" style="text-align: center;">
                   <img src="Images/profilePicture.png" class="foto" alt="profile-picture" id="profile-picture">
                 </div>
               </div>
@@ -113,8 +127,7 @@
           <div class="caja-informacion" id="profile">
             <h3>Profile</h3>
             <div class="description">
-              <p>I am a <strong>Mechanical and Aeronautical Engineer</strong>, graduated in Universidad Pontificia Bolivariana in Medellín, Colombia. During the study of these amazing degrees, I realized that my passion was programming. So, I decided to start learning several programming languages in order to be able to work as a developer. It is my dream. </p>
-              <img src="Images/diplomas.JPG" alt="diplomas" class="foto">
+              <p> <img src="Images/diplomas.JPG" alt="diplomas" class="foto-vertical">I am a <strong>Mechanical and Aeronautical Engineer</strong>, graduated in Universidad Pontificia Bolivariana in Medellín, Colombia. During the study of these amazing degrees, I realized that my passion was programming. So, I decided to start learning several programming languages in order to be able to work as a developer. It is my dream. <br><br>In the university I learned <strong>Matlab</strong> and <strong>C</strong>. And after getting my degree I started to learn autodidactly Java and Python. Then I got the opportunity to enter to Make it Real to learn <strong>Web Developing with Rails</strong>. Then I received the opportunity to go to a training in <strong>C++</strong> in the company Globant. That was where it all started. </p>
               <p>In the university I learned <strong>Matlab</strong> and <strong>C</strong>. And after getting my degree I started to learn autodidactly Java and Python. Then I got the opportunity to enter to Make it Real to learn <strong>Web Developing with Rails</strong>. Then I received the opportunity to go to a training in <strong>C++</strong> in the company Globant. That was where it all started.</p>
               <img src="Images/prog_logos.jpg" alt="logos" class="foto">
               <p>Then I started participating and creating my own projects. </p>
@@ -128,7 +141,7 @@
         <div class="col">
           <div class="caja-informacion" id="what-i-do">
             <h3>What I do</h3>
-            <p>I am currently attending to a Full Stack on Rails course and a C++ training. My goal is to learn as much as I can about those two topics. I would love to start working as a professional developer very soon. </p>
+            <p>I am working as a developer </p>
             <img src="Images/makeit_globant.jpg" alt="empresas" class="foto">
           </div>
         </div>
@@ -137,17 +150,11 @@
       <div class="row">
         <div class="col">
           <div class="caja-informacion" id="skills">
-            <h3>Skills</h3>
-            <p>I am currently attending to a Full Stack on Rails course and a C++ training. My goal is to learn as much as I can about those two topics. I would love to start working as a professional developer very soon. </p>
-          </div>
-        </div>
-      </div>
+            <h3>Technical skills</h3>
+            <p>I am currently attending to a Full Stack on Rails course and a C++ training. </p>
 
-      <div class="row">
-        <div class="col">
-          <div class="caja-informacion" id="soft-skills">
             <h3>Soft skills</h3>
-            <p>I am currently attending to a Full Stack on Rails course and a C++ training. My goal is to learn as much as I can about those two topics. I would love to start working as a professional developer very soon. </p>
+            <p>I am currently attending to a Full Stack on Rails course and a C++ training. </p>
           </div>
         </div>
       </div>
@@ -157,7 +164,7 @@
           <div class="caja-informacion" id="education">
             <h3>Education</h3>
             <div class="row">
-              <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6 education-places">
                 <div class="row">
                   <div class="col">
                     <img src="Images/isc.jpg" alt="colegio" class="education-logos">
@@ -167,7 +174,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6 education-places">
                 <div class="row">
                   <div class="col">
                     <img src="Images/upb.jpg" alt="university" class="education-logos">
@@ -180,7 +187,7 @@
             <!-- </div> -->
             <!-- <br> -->
             <!-- <div class="row"> -->
-              <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6 education-places">
                 <div class="row">
                   <div class="col">
                     <img src="Images/upb.jpg" alt="university" class="education-logos">
@@ -190,7 +197,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6 education-places">
                 <div class="row">
                   <div class="col">
                     <img src="Images/mir.png" alt="mir" class="education-logos">
@@ -207,7 +214,7 @@
 
       <div class="row">
         <div class="col">
-          <div class="caja-informacion" id="experience">
+          <div class="caja-informacion" id="experience-box">
             <h3>Experience</h3>
             <h4><strong>Renault-Sofasa</strong> </h4>
             <small>January - July 2017</small>
@@ -233,6 +240,7 @@
               </tr>
             </table>
 
+            <br>
 
             <div id="carousel" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -293,8 +301,7 @@
               <li>Mechanisms and its theoretical modelation (using matlab)</li>
               <li>I made a programm that crypts messages, using the Vigènere code. That was programmed using C. I also did it with Matlab. The repository for the code in C is available <a href="https://github.com/pabloum/mi_repo/tree/master/ProgC">here</a></li>
               <li>
-                Kinematic analysis of a Kuka KR6 - Industrial Robot. With Matlab. The repository is <a href="https://github.com/pabloum/mi_repo/tree/master/Robotics">here</a>.
-                <img src="Images/kuka.jpg" alt="kuka" class="foto">
+                Kinematic analysis of a Kuka KR6 - Industrial Robot. With Matlab. The repository is <a href="https://github.com/pabloum/mi_repo/tree/master/Robotics">here</a>. <img src="Images/kuka.jpg" alt="kuka" class="foto">
               </li>
               <li>Bootcamp automation testing in Globant</li>
               <li>Several challenges of <a href="https://github.com/pabloum/challengesRuby">Ruby</a> with make it real. </li>
@@ -314,10 +321,9 @@
 
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="Scripts/app.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="Scripts/app.js"></script> -->
   </body>
 </html>
