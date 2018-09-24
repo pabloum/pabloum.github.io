@@ -162,8 +162,12 @@ ul{
   p, li, tr, h3, .navbar{
     font-size: 200%;
   }
+
+  body{
+    padding-top: 110px;
+  }
   .navbar a{
-    font-size: 50%;
+    font-size: 60px;
   }
   .caja-informacion{
     margin-right: -10%;
