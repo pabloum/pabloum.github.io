@@ -47,7 +47,7 @@ ul{
   font-weight: bold;
 }
 
-.h4-portfolio{
+h4{
   color: orange;
   margin-top: 3%;
 }
@@ -59,6 +59,7 @@ ul{
 }
 
 .pie-pag{
+  display: block;
   background-color: rgb(0,0,0,0.8);
   border-radius: 10px;
   padding: 1%;
@@ -66,6 +67,7 @@ ul{
   font-size: 11px;
 
   text-align: center;
+
   /* width: 400px; */
 }
 
@@ -158,8 +160,15 @@ ul{
   text-align: center;
 }
 
+#ul-social{
+  /* list-style-type: none; */
+  display: inline;
+  margin-left: 27.5%;
+  /* float: none; */
+}
 .social{
-  float: left;
+  display: inline-block;
+  /* float: none; */
   margin-top: 20px;
   margin-right: 20px;
 }
@@ -189,5 +198,21 @@ ul{
   .caja-informacion{
     margin-right: -10%;
     margin-left: -10%;
+  }
+
+  #ul-social{
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 800px) {
+  #ul-social{
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 600px) {
+  #ul-social{
+    margin-left: 5%;
   }
 }
