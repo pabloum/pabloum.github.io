@@ -162,15 +162,14 @@ h4{
 
 #ul-social{
   /* list-style-type: none; */
-  display: inline;
-  margin-left: 27.5%;
-  /* float: none; */
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
 }
 .social{
   display: inline-block;
-  /* float: none; */
   margin-top: 20px;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .img-portfolio{
@@ -198,21 +197,5 @@ h4{
   .caja-informacion{
     margin-right: -10%;
     margin-left: -10%;
-  }
-
-  #ul-social{
-    margin-left: 20%;
-  }
-}
-
-@media (max-width: 800px) {
-  #ul-social{
-    margin-left: 10%;
-  }
-}
-
-@media (max-width: 600px) {
-  #ul-social{
-    margin-left: 5%;
   }
 }
