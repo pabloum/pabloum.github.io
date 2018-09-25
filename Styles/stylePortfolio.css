@@ -22,6 +22,7 @@ h2{
 h3{
   color: yellow;
   text-shadow: none;
+  font-weight: bold;
 }
 
 p{
@@ -44,6 +45,11 @@ ul{
 #home{
   color: yellow;
   font-weight: bold;
+}
+
+.h4-portfolio{
+  color: orange;
+  margin-top: 3%;
 }
 
 
@@ -156,6 +162,17 @@ ul{
   float: left;
   margin-top: 20px;
   margin-right: 20px;
+}
+
+.img-portfolio{
+  display: block;
+  margin: auto;
+  margin: 2%;
+  height: 150px;
+}
+
+.div-portfolio{
+  text-align: center;
 }
 
 @media (max-width: 992px) {
