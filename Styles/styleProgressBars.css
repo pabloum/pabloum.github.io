@@ -12,9 +12,10 @@
   color: black;
 }
 
-.css {width: 80%; background-color: #cc0000;}
-.js {width: 65%; background-color: #005ce6;}
-.rubyonrails {width: 60%; background-color: #e6e600;}
+.spanish {width: 100%; background-color: #e6e600;}
+.english {width: 93%; background-color: #cc0000;}
+.french {width: 85%; background-color: #005ce6;}
+.german {width: 60%; background-color: #e6e600;}
 
 .over{
  width: 0px;

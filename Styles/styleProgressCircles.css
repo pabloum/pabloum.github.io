@@ -1,8 +1,16 @@
 .container-circle{
     width: 110px;
     height: 110px;
-    /* margin: 100px auto; */
+    margin: auto;
+    /* margin-left: 100px;
+    margin-right: 100px; */
 }
+
+.description-circles{
+  margin-bottom: 3%;
+  text-align: center;
+}
+
 .prec{
     top: 25px;
     position: relative;
@@ -28,7 +36,7 @@
     border-radius: 100%;
 
     /* background-color:#39B4CC; */
-    background-color: white;
+    background-color: black;
     /* background-image:
       linear-gradient(270deg, transparent 50%, #A2ECFB 50%),
       linear-gradient(90deg, #A2ECFB 50%, transparent 50%); */
@@ -63,4 +71,29 @@
 
 .td-circle{
   margin: 4%;
+}
+
+@media (max-width: 992px) {
+
+  .container-circle, .active-border{
+    width: 310px;
+    height: 310px;
+  }
+
+  .circle{
+    top: 15px;
+    left: 15px;
+    width: 280px;
+    height: 280px;
+  }
+
+  .prec{
+    top: 61px;
+    font-size: 90px
+  }
+
+  .description-circles{
+    margin-bottom: 9%;
+  }
+
 }
