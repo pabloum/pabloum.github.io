@@ -117,67 +117,11 @@ h4{
   height: auto;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: auto;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-  text-align: center;
-}
-
-.fa-github {
-  background: #000000;
-  color: white;
-  text-align: center;
-}
-
-#ul-social{
-  /* list-style-type: none; */
-  display: table;
-  margin-right: auto;
-  margin-left: auto;
-}
-.social{
-  display: inline-block;
-  margin-top: 20px;
-  margin-left: 20px;
-}
 
 .img-portfolio{
   display: block;
   margin: auto;
-  margin: 2%;
+  margin-bottom: 3%;
   height: 150px;
 }
 
@@ -201,10 +145,15 @@ h4{
     padding-top: 110px;
   }
   .navbar a{
-    font-size: 60px;
+    font-size: 50px;
   }
   .caja-informacion{
     margin-right: -10%;
     margin-left: -10%;
+  }
+
+  .img-portfolio{
+    width: 700px;
+    height: auto;
   }
 }

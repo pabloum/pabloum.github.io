@@ -8,6 +8,8 @@
   margin: 5px;
   border-radius: 3px;
   transition: width 1s;
+  font-size: 24px;
+  color: black;
 }
 
 .css {width: 80%; background-color: #cc0000;}
@@ -17,4 +19,9 @@
 .over{
  width: 0px;
 
+}
+
+.progress{
+  font-size: 24px;
+  height: 26px;
 }
