@@ -1,0 +1,20 @@
+#skill{
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+}
+
+.skills > *{
+  margin: 5px;
+  border-radius: 3px;
+  transition: width 1s;
+}
+
+.css {width: 80%; background-color: #cc0000;}
+.js {width: 65%; background-color: #005ce6;}
+.rubyonrails {width: 60%; background-color: #e6e600;}
+
+.over{
+ width: 0px;
+
+}
