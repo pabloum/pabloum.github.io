@@ -44,4 +44,23 @@
     width: 700px;
     height: auto;
   }
+
+  .img-portfolio-big{
+    width: 700px;
+    height: auto;
+  }
+
+  .btn-portfolio{
+    width: 700px;
+    height: auto;
+  }
+
+  .modal {
+    position: fixed;
+    left: -35%;
+  }
+
+  .modal-content{
+    width: 850px;
+  }
 }
