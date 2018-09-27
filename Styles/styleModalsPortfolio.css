@@ -1,0 +1,47 @@
+.btn-portfolio{
+  margin-bottom: 3%;
+  /* margin-right: 250px; */
+  padding: 0px;
+  height: 150px;
+}
+
+
+.img-portfolio{
+  display: block;
+  margin: auto;
+  margin-bottom: 3%;
+  height: 150px;
+}
+
+.img-portfolio-big{
+  display: block;
+  margin: auto;
+  margin-bottom: 3%;
+  height: 300px;
+}
+
+.div-portfolio{
+  text-align: center;
+}
+
+.modal-header, .modal-body,  .modal-footer{
+  background-color: rgb(0,0,0,0.9);
+}
+/* .modal-content{
+  background-color: rgb(0,0,0,0.9);
+} */
+
+.btn-close-modal{
+  color: white;
+}
+
+.goPage {
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .img-portfolio{
+    width: 700px;
+    height: auto;
+  }
+}

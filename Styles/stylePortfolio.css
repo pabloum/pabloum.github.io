@@ -126,16 +126,6 @@ h5{
 }
 
 
-.img-portfolio{
-  display: block;
-  margin: auto;
-  margin-bottom: 3%;
-  height: 150px;
-}
-
-.div-portfolio{
-  text-align: center;
-}
 
 .progress{
   margin-top: 3%;
@@ -158,10 +148,5 @@ h5{
   .caja-informacion{
     margin-right: -10%;
     margin-left: -10%;
-  }
-
-  .img-portfolio{
-    width: 700px;
-    height: auto;
   }
 }
