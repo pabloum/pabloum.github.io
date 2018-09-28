@@ -172,7 +172,7 @@
                   </div>
 
                   <div class="progress">
-                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">Sinatra 60%</div>
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%">Ruby/Ruby on Rails 60%</div>
                   </div>
 
                   <div class="progress">
@@ -180,7 +180,7 @@
                   </div>
 
                   <div class="progress">
-                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 55%">Ruby/Ruby on Rails 55%</div>
+                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 55%">Sinatra 55%</div>
                   </div>
 
                   <div class="progress">
@@ -188,7 +188,7 @@
                   </div>
 
                   <div class="progress">
-                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">HTTP 50%</div>
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">Java 50%</div>
                   </div>
 
                   <div class="progress">
@@ -520,7 +520,7 @@
                       <div class="modal-body">
                         <table>
                           <tr>
-                            <td><button type="button" data-toggle="modal"  data-target="#portfolioModal" data-dismiss="modal"> &#9664;</button></td>
+                            <td><button type="button" data-toggle="modal"  data-target="#reto5Modal" data-dismiss="modal"> &#9664;</button></td>
                             <td>
                               <img src="Images/portfolio/ecommerce.png" alt="ecommerce" class="img-portfolio-big">
                               Ecoomerce created with the following technologies: HTML5, CSS3, and Bootstrap 4
@@ -601,13 +601,51 @@
                               <img src="Images/portfolio/blog_hexo.bmp" alt="jaguar" class="img-portfolio-big">
                               A simple blog created with the following technologies: HTML5, CSS3, Bootstrap and Hexo.
                             </td>
-                            <td><button type="button" data-toggle="modal" data-target="#portfolioModal" data-dismiss="modal"> &#9654;</button></td>
+                            <td><button type="button" data-toggle="modal" data-target="#sinatraModal" data-dismiss="modal"> &#9654;</button></td>
                           </tr>
                         </table>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         <a class="goPage" href="https://pabloum.github.io/blog_hexo" target="_blank"><button type="button" class="btn btn-primary">Visit page</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 div-portfolio">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-portfolio" data-toggle="modal" data-target="#sinatraModal">
+                  <img src="Images/portfolio/sinatra.jpg" alt="sinatra" class="img-portfolio">
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="sinatraModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">A "blog" with Sinatra</h5>
+                        <button type="button" class="close btn-close-modal" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <table>
+                          <tr>
+                            <td><button type="button" data-dismiss="modal" data-toggle="modal" data-target="#blogHexoModal"> &#9664;</button></td>
+                            <td>
+                              <img src="Images/portfolio/sinatra.jpg" alt="sinatra" class="img-portfolio-big">
+                              A simple tasks list application created with the following technologies: HTML5, Ruby and Sinatra.
+                            </td>
+                            <td><button type="button" data-toggle="modal" data-target="#portfolioModal" data-dismiss="modal"> &#9654;</button></td>
+                          </tr>
+                        </table>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <a class="goPage" href="https://github.com/pabloum/proyecto_sinatra" target="_blank"><button type="button" class="btn btn-primary">Go to repository</button></a>
                       </div>
                     </div>
                   </div>
@@ -636,12 +674,12 @@
                       <div class="modal-body">
                         <table>
                           <tr>
-                            <td><button type="button" data-toggle="modal"  data-target="#jaguarModal" data-dismiss="modal"> &#9664;</button></td>
+                            <td><button type="button" data-toggle="modal"  data-target="#sinatraModal" data-dismiss="modal"> &#9664;</button></td>
                             <td>
                               <img src="Images/portfolio/portfolio.png" alt="portfolio" class="img-portfolio-big">
                               My personal portfolio created with the following technologies: HTML5, CSS3, Bootstrap, Javascript and jQuery
                             </td>
-                            <td><button type="button" data-toggle="modal"  data-target="#ecommerceModal" data-dismiss="modal"> &#9654;</button></td>
+                            <td><button type="button" data-toggle="modal"  data-target="#vigenereModal" data-dismiss="modal"> &#9654;</button></td>
                           </tr>
                         </table>
                       </div>
@@ -658,6 +696,7 @@
 
             <h4 class="h4-portfolio">Command line applications</h4>
             <div class="row" id="commadLineApps">
+
               <div class="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 div-portfolio">
 
                 <!-- Button trigger modal -->
@@ -677,17 +716,17 @@
                       </div>
                       <div class="modal-body">
                         <table>
-                          <td><button type="button" data-toggle="modal"  data-target="#magnetonModal" data-dismiss="modal"> &#9664;</button></td>
+                          <td><button type="button" data-toggle="modal"  data-target="#portfolioModal" data-dismiss="modal"> &#9664;</button></td>
                           <td>
                             <img src="Images/portfolio/vigenere.png" alt="vigenere" class="img-portfolio-big">
-                            Crypting application. Programmed with C
+                            Crypting application. This programm that crypts messages, using the Vigènere code. That was programmed using C. I also did it with Matlab.. Programmed with C
                           </td>
                           <td><button type="button" data-toggle="modal"  data-target="#magnetonModal" data-dismiss="modal"> &#9654;</button></td>
                         </table>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <a class="goPage" href="https://pabloum.github.io/" target="_blank"><button type="button" class="btn btn-primary">Visit page</button></a>
+                        <a class="goPage" href="https://github.com/pabloum/mi_repo/tree/master/ProgC" target="_blank"><button type="button" class="btn btn-primary">Go to repository</button></a>
                       </div>
                     </div>
                   </div>
@@ -719,34 +758,74 @@
                             <img src="Images/portfolio/magneton.bmp" alt="magneton" class="img-portfolio-big">
                             Simple game called Magentón application. Programmed with C
                           </td>
-                          <td><button type="button" data-toggle="modal"  data-target="#vigenereModal" data-dismiss="modal"> &#9654;</button></td>
+                          <td><button type="button" data-toggle="modal"  data-target="#reto5Modal" data-dismiss="modal"> &#9654;</button></td>
                         </table>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <a class="goPage" href="https://pabloum.github.io/" target="_blank"><button type="button" class="btn btn-primary">Visit page</button></a>
+                        <a class="goPage" href="https://github.com/pabloum/mi_repo/tree/master/ProgC" target="_blank"><button type="button" class="btn btn-primary">Go to repository</button></a>
                       </div>
                     </div>
                   </div>
                 </div>
 
               </div>
+
+              <div class="col col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 div-portfolio">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-portfolio" data-toggle="modal" data-target="#reto5Modal">
+                  <img src="Images/portfolio/reto5.jpg" alt="reto5" class="img-portfolio">
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="reto5Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Reto 5</h5>
+                        <button type="button" class="close btn-close-modal" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <table>
+                          <td><button type="button" data-toggle="modal"  data-target="#magnetonModal" data-dismiss="modal"> &#9664;</button></td>
+                          <td>
+                            <img src="Images/portfolio/reto5.jpg" alt="reto5" class="img-portfolio-big">
+                            Simple game called reto5 application. Programmed with Ruby
+                          </td>
+                          <td><button type="button" data-toggle="modal"  data-target="#ecommerceModal" data-dismiss="modal"> &#9654;</button></td>
+                        </table>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <a class="goPage" href="https://github.com/pabloum/reto5" target="_blank"><button type="button" class="btn btn-primary">Go to repository</button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
             </div>
 
 
             <h4 class="h4-portfolio">Other programming related projects</h4>
             <ul>
-              <li>Subject fundamentals of programming,  language C, at the university (UPB)</li>
+              <li>Subject: "Fundamentals of programming",  language C, at the university (UPB)</li>
               <li>Numerical methods using Matlab</li>
-              <li>Autonomous flying systems - theory and basic programming</li>
-              <li>Basic robotics and its kinematic programming</li>
-              <li>Mechanisms and its theoretical modelation (using matlab)</li>
-              <li>I made a programm that crypts messages, using the Vigènere code. That was programmed using C. I also did it with Matlab. The repository for the code in C is available <a href="https://github.com/pabloum/mi_repo/tree/master/ProgC">here</a></li>
+              <li>Autonomous flying systems - theory and basic programming (with Matlab)</li>
+              <li>Basic robotics and its kinematic programming (with Matlab)</li>
+              <li>Mechanisms and its theoretical modelation (using Matlab)</li>
               <li>
                 Kinematic analysis of a Kuka KR6 - Industrial Robot. With Matlab. The repository is <a href="https://github.com/pabloum/mi_repo/tree/master/Robotics">here</a>. <img src="Images/kuka.jpg" alt="kuka" class="foto">
               </li>
               <li>Bootcamp automation testing in Globant</li>
-              <li>Several challenges of <a href="https://github.com/pabloum/challengesRuby">Ruby</a> with make it real. </li>
+              <li>Bootcamp C++ in Globant</li>
+              <li>Several challenges/excercises of <a href="https://github.com/pabloum/challengesRuby">Ruby</a>. </li>
+              <li>Several challenges/excercises of <a href="https://github.com/pabloum/C-plus-plus-class">C++</a>. </li>
+              <li>Several challenges/excercises of <a href="https://github.com/pabloum/jQuery">Javascript</a>. </li>
             </ul>
           </div>
         </div>
