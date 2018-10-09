@@ -33,3 +33,20 @@ figure figcaption {
   width: 100px;
   height: 30px;
 }
+
+@media (max-width: 992px) {
+  figure figcaption{
+    width: 700px;
+    height: 350px;
+    font-size: 22px;
+    padding: 18px;
+    left: 50%;
+    top: 50%;
+  }
+
+  .portfolio-caption{
+    transform: translate(300%, 330%);
+    width: 100px;
+    height: 40px;
+  }
+}
