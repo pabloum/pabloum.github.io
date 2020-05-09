@@ -1,0 +1,53 @@
+body {
+  background-color: #111;
+}
+
+h2 {
+  color: green;
+  font-family: monospace;
+  margin: 0;
+  position: absolute;
+  top: 10%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 45px;
+  text-transform: capitalize;
+  white-space: nowrap;
+  color: orange;
+
+  /*For centering */
+  margin: 0;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1::before {
+  content: "Welcome to Pablo's Portfolio";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  color: blue;
+  overflow: hidden;
+  border-right: 3px solid white;
+
+  /* weird magic */
+  animation: typeIt 8s steps(44) infinite;
+}
+
+@keyframes typeIt {
+  0% {
+    width: 0%;
+  }
+
+  50% {
+    width: 100%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
