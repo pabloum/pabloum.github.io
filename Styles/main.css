@@ -1,14 +1,28 @@
 body {
   background-color: #111;
+  margin: 0 !important;
+  font-family: monospace;
 }
 
-h2 {
+#MainTitle {
+  /* display: flex;/ */
+  margin-top: 0px !important;
   color: green;
-  font-family: monospace;
-  margin: 0;
-  position: absolute;
-  top: 10%; left: 50%;
-  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 2% 20% 2%;
+  /* margin: 1% 2% 1%; */
+}
+
+h3 {
+  color: yellow;
+  margin: 1% 2% 1%;
+  font-size: 20px;
+}
+
+.text {
+  color: gray;
+  margin: 1% 2% 1%;
+  font-size: 17px;
 }
 
 h1 {
@@ -21,7 +35,7 @@ h1 {
   /*For centering */
   margin: 0;
   position: absolute;
-  top: 50%; left: 50%;
+  top: 75%; left: 50%;
   transform: translate(-50%, -50%);
 }
 
