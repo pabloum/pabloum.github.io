@@ -5,6 +5,7 @@
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    filter: invert(1);
 }
 
 .social a {
